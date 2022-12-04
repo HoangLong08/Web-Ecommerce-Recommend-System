@@ -1,0 +1,42 @@
+/* Head page of admin */
+.wrapper-head-page{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	height: 32px;
+}
+
+.head-page-left{
+	display: flex;
+	align-items: center;
+}
+
+.head-page-right{
+	margin-right: 24px;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+}
+
+.head-page-title{
+	word-wrap: break-word;
+	font-size: 18px;
+	font-weight: 600;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+.wrapper-page-admin-back{
+	margin-right: 12px;
+}
+
+/* Header to save info product of website */
+
+.wrapper-header-save-info-admin{
+	background-color: #04293A;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	z-index: 99;
+}

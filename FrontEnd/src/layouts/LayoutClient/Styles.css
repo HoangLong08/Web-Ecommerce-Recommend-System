@@ -1,0 +1,7 @@
+.scroll-button{
+  position: fixed !important;
+  width: 100%;
+  right: 2%;
+  bottom: 40px;
+  z-index: 1;
+}

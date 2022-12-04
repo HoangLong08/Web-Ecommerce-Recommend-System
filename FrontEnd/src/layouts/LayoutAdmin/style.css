@@ -1,0 +1,23 @@
+.wrapper-default-layout{
+  display: flex;
+}
+
+.wrapper-content-layout{
+	transition: all .3s;
+	width: calc(100% - var(--width-sidebar-admin));
+	height: 100vh;
+	background-color: #f6f6f7;
+}
+
+.wrapper-content-layout-active{
+	transition: all .3s;
+	width: calc(100% - 80px) ;
+	height: 100vh;
+	background-color: #f2f3f5;
+}
+
+.wrapper-inner-layout{
+	margin: 24px;
+	height: calc(100vh - var(--height-header-admin) - 48px);
+	overflow: auto;
+}

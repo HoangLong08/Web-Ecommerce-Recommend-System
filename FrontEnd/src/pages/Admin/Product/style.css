@@ -1,0 +1,55 @@
+.wrapper-filter-page-admin{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.option-product-admin .form-label p{
+	font-size: 12px !important;
+	margin-bottom: 4px;
+}
+
+.list-form-item-image-product{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 12px;
+}
+
+.form-item-image-product{
+	position: relative;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	border: 1.5px solid var(--primary-color);
+	padding: 4px;
+	border-radius: 4px;
+	display: flex;
+}
+
+.form-item-image-product img{
+	height: 60px;
+	width: auto;
+	object-fit: cover;
+}
+
+.form-item-image-product-delete{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.form-item-image-product:hover .form-item-image-product-delete{
+	display: block;
+}
+
+.product-thumbnail img{
+	height: 100px;
+	width: auto;
+}
+
+.form-list-configurations{
+	display: flex;
+	flex-wrap: wrap;
+}

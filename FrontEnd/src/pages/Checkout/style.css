@@ -1,0 +1,156 @@
+.wrap-payment {
+	background-color: #f2f3f5;
+	padding: 12px;
+} 
+.commomBackgroundBoder{
+	background-color: white;
+	border-radius: 6px;
+}
+.info-delivery{
+	padding: 20px;
+	margin-bottom: 16px;
+}
+
+
+.infor-customer{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.city{
+	display: flex;
+	justify-content: space-between
+}
+.town{
+	display: flex;
+	justify-content: space-between
+}
+
+.infor-order{
+	padding: 20px;
+}
+
+.list-cart{
+	margin-top: 16px;
+}
+
+.payment-cart{
+	display: flex;
+	margin-bottom: 12px;
+}
+
+.payment-cart-img{
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	cursor: unset;
+	z-index: 0;
+	border-radius: 4px;
+	border: 1px solid rgb(224, 224, 224);
+	width: 80px !important;
+	content-visibility: auto;
+	height: 80px !important;
+	flex-basis: 80px
+}
+.payment-cart-img img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: transform 0.5s;
+}
+.cart-infor{
+	margin-left: 12px;
+	width: calc(100% - 80px);
+}
+
+.payment-cart-name{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 8px;
+	
+}
+
+.note-order{
+	padding: 20px;
+}
+
+.form-group-note{
+	margin-top: 16px;
+	
+}
+.form-group-note textarea{
+	width: 100%;
+	padding: 12px;
+}
+
+.ppay-ment{
+	margin-top: 16px;
+	padding: 20px;
+	
+}
+
+.title-checkout{
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.sumary-money{
+	color: var(--primary-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.wrap-payment-success{
+	text-align: center;
+	padding: 40px 0;
+	background-color: #f2f3f5;
+}
+
+.icon-payment-success{
+	color: orange;
+	font-size: 104px;
+}
+
+.text-payment-success{
+	font-weight: bold;
+	background: var(--primary-color);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 16px ;
+}
+
+.FormGroup{
+
+	padding: 8px;
+	border-style: none;
+	background-color: #7795f8;
+	color: white;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+	margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 426px) {
+	.infor-order{
+		padding: 12px;
+	}
+
+	.wrap-payment .ant-row .ant-col{
+		padding: 0 !important;
+	}
+	.form-group input[type=text], select {
+		padding: 8px 12px;
+	}
+}

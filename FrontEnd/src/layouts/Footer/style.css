@@ -1,0 +1,37 @@
+.wrapper-footer{
+	background-color: #445268;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.footer-list-item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.footer-title-main{
+	margin-bottom: 12px;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-title-sub{
+	margin-bottom: 6px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-title-sub:hover{
+	text-decoration: underline
+}
+
+.ui-footer-copyright{
+	text-align: center;
+	border-top: 1px solid #313D52;
+	color: white;
+	margin-top: 20px;
+	padding-top: 20px;
+}

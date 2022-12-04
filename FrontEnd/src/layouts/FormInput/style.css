@@ -1,0 +1,38 @@
+.wrapper-form {
+  margin-bottom: 12px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group-width {
+  width: 424px;
+}
+
+.form-label p{
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+.w-300{
+  width: 220px !important;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  border: 1.5px solid #bdbac4;
+  border-radius: 8px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+	padding: 4px 8px;
+}
+

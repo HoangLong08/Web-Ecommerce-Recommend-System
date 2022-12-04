@@ -1,0 +1,56 @@
+.box-head-dashboard{
+    
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.box-head-dashboard-sales{
+    background-color: #fba03b;
+}
+
+.box-head-dashboard-customer{
+    background-color: #10b724;
+}
+
+.box-head-dashboard-product{
+    background-color: #3468ea;
+}
+
+.box-head-dashboard-order{
+    background-color: #e17383;
+}
+
+.box-head-dashboard span{
+    font-size: 24px;
+}
+
+.box-head-dashboard-title{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.box-head-dashboard-number{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.box-body-dashboard{
+    width: 100%;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-body-line-dashboard{
+    width: 65%;
+}
+
+.box-body-pie-dashboard{
+    width: 35%;
+}

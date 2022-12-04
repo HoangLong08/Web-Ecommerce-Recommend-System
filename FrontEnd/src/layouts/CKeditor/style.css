@@ -1,0 +1,21 @@
+.se-btn svg{
+	color: #868686;
+	stroke-width: 1px;
+}
+
+.se-btn svg path {
+  stroke-width: 1px;
+}
+
+/* .sun-editor .se-wrapper{
+	height: 100%;
+} */
+
+/* .sun-editor{
+	height: 100%;
+} */
+
+.se-wrapper-inner{
+	height: 430px !important;
+	overflow: auto !important;
+}
